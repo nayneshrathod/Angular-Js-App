@@ -1,0 +1,34 @@
+<!doctype html>
+<html ng-app>
+  <head>
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <script src="static/js/angular.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <label>Name:</label>
+      <input type="text" ng-model="yourName" class="form-control" placeholder="Enter a name here">
+      <hr>
+      <h1>Hello {{yourName}}!</h1>
+
+        <div class="row">
+          <div class="col-md-4">
+            <ul>
+              <li>
+                <span>Nexus S</span>
+                <p>
+                  Fast just got faster with Nexus S.
+                </p>
+              </li>
+              <li>
+                <span>Motorola XOOM™ with Wi-Fi</span>
+                <p>
+                  The Next, Next Generation tablet.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </div>
+  </body>
+</html>
